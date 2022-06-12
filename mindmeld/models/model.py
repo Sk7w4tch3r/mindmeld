@@ -23,7 +23,7 @@ from abc import ABC, abstractmethod
 from inspect import signature
 from typing import Union, Type, Dict, Any, Tuple, List, Pattern, Set
 
-from sklearn.externals import joblib
+import joblib
 from sklearn.model_selection import (
     GridSearchCV,
     GroupKFold,

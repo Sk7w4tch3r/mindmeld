@@ -22,7 +22,7 @@ import random
 
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.externals import joblib
+import joblib
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_selection import SelectFromModel, SelectPercentile
 from sklearn.linear_model import LogisticRegression

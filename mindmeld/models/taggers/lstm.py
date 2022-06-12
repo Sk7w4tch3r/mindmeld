@@ -17,7 +17,7 @@ import re
 
 import numpy as np
 import tensorflow as tf
-from sklearn.externals import joblib
+import joblib
 from sklearn.preprocessing import LabelBinarizer
 
 from .embeddings import CharacterSequenceEmbedding, WordSequenceEmbedding
